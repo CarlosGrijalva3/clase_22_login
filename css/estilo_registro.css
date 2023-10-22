@@ -1,0 +1,97 @@
+/*--Registro--*/
+:root {
+    --color-uno: #241313;
+    --color-dos: #140e0e;
+    --color-tres: rgb(164, 136, 120);
+    --color-cuatro: #d9bf8f;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background: #140e0e;
+   
+}
+
+h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input{
+    display: block;
+    border: 10px solid ;
+    width: 95%;
+    padding: 13px;
+    border-radius: 14px;
+    margin: 3px;
+}
+
+
+label{
+    color: #f5f5f5;
+    font-size: 20px;
+
+}
+
+form{
+    max-width: 400px;
+    margin: 50px auto 200px auto;
+    /*border: thin solid #451717;*/
+    padding: 20px;
+   /* box-shadow: 0 5px 5px #451717;*/
+}
+
+/*color*/
+form{ 
+    background-color:#241313;
+    border-radius: 10px 20px;
+}
+
+form label{
+    display: block;
+    margin-bottom: 10px;
+    padding-left: 5px;
+}
+
+form input{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border: thin solid #e4e4e4;
+    margin-bottom: 30px;
+}
+
+form button{
+    background:#d9bf8f;
+    color: #f5f5f5;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    font-size: 16px;
+    margin-bottom: 20px;
+    cursor:pointer;
+    border-radius: 5px;
+}
+
+form button:active{
+    background: #140e0e;/*click*/
+}
+
+button:hover{
+    background: #140e0e;
+    color: white;
+}
